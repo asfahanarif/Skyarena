@@ -1,0 +1,89 @@
+.SignUp-form-container {
+  text-align: center;
+  width: 30%;
+  height: 80%;
+  margin: 4rem 6rem;
+  padding: 2rem;
+  border-radius: 2rem;
+  color: #000000;
+  margin-left: auto;
+  display: block;
+  background-color: #01959a;
+}
+
+.SignUp-form-container form {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  margin: auto;
+}
+
+.SignUp-form-container h1 {
+  padding: 1rem 0 0 0;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.SignUp-form-container input {
+  height: 3rem;
+  margin-bottom: 1rem;
+  border-radius: 0.3rem;
+  padding: 0 0 0 0.5rem;
+  border: 1px solid #2a2a2a;
+}
+
+
+.SignUp-form-container button {
+  padding: 0.5rem 1rem;
+  white-space: nowrap;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  width: min-content;
+  transition: 0.2s ease-in-out;
+  align-self: center;
+}
+
+button:hover {
+  background-color: #027e82;
+  color: #fff;
+}
+
+@media screen and (max-width: 850px) {
+  .SignUp-form-container {
+    margin: 4rem 2rem;
+    width: auto;
+    padding: 2rem;
+    height: auto;
+
+  }
+
+  .SignUp-form-container h1 {
+    display: flex;
+    margin-top: 1px;
+    margin-bottom: 1px;
+  
+    justify-content: center;
+  padding: 1rem 0 0 0;
+  font-size: 15px;
+}
+
+  .SignUp-form-container form {
+    width: auto;
+    height: 60%;
+    padding-top: 2rem;
+
+  }
+
+  .SignUp-form-container button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    padding: 0rem 0.8rem;
+  }
+
+}
